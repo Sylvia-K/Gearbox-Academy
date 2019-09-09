@@ -44,7 +44,7 @@ Serial.println(distance);
 
 if (distance > 20)
 {
-digitalWrite(out2, LOW);
+digitalWrite(out2, HIGH);
 digitalWrite(out1, HIGH);
 //delay(1000);
 //digitalWrite(out1, LOW);
